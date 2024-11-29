@@ -24,7 +24,7 @@ function App() {
     }
   };
 
-  const handleSearch =() => {
+  const handleSearch = () => {
     dictonaryApi(word);
   };
 
@@ -37,7 +37,6 @@ function App() {
     <div
       style={{ height: "100vh", backgroundColor: "#282c34", color: "white" }}
     >
-      {console.log("----------------------------")
       }
       <Container
         maxWidth="md"
